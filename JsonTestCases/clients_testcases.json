@@ -1,0 +1,26 @@
+{
+  "TestCases": [
+    {
+      "error_message": "",
+      "expected_result": true,
+      "first_name": "Ivan",
+      "last_name": "Ivanov",
+      "post_code": "9010"
+    },
+    {
+      "error_message": "First Name is required",
+      "expected_result": false,
+      "first_name": "",
+      "last_name": "",
+      "post_code": ""
+    },
+    {
+      "error_message": "Last Name is required",
+      "expected_result": false,
+      "first_name": "Ivan",
+      "last_name": "",
+      "post_code": ""
+    }
+ 
+  ]
+}

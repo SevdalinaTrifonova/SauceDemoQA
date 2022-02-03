@@ -1,0 +1,8 @@
+{
+  "ApplicationUrl": "https://www.saucedemo.com/",
+  "TargetBrowser": "chrome",
+  "ImplicitWaitSeconds": 4,
+  "UserName": "standard_user",
+  "Password": "secret_sauce",
+  "Picture404": "static/media/sl-404.168b1cce.jpg"
+ }

@@ -1,0 +1,29 @@
+{"TestCases": [{
+      "display_name":"add two items",
+      "items":[
+        {
+          "itemName":"test.allthethings()-t-shirt-(red)",
+          "action":"add"
+        },
+		{
+          "itemName":"sauce-labs-backpack",
+          "action":"add"
+        }]
+      },
+	  {
+      "display_name":"add 2 items,remove first",
+      "items":[
+        {
+          "itemName":"test.allthethings()-t-shirt-(red)",
+          "action":"add"
+        },
+		{
+          "itemName":"test.allthethings()-t-shirt-(red)",
+          "action":"remove"
+        },
+		{
+          "itemName":"sauce-labs-backpack",
+          "action":"add"
+        }]
+      }]
+}

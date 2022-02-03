@@ -1,0 +1,39 @@
+{
+  "TestCases": [
+    {
+      "UserName": "standard_user",
+      "Password": "secret_sauce",
+      "ExpectedResult": true
+    },
+    {
+      "UserName": "performance_glitch_user",
+      "Password": "secret_sauce",
+      "ExpectedResult": true
+    },
+    {
+      "UserName": "invalidUser",
+      "Password": "secret_sauce",
+      "ExpectedResult": false
+    },
+    {
+      "UserName": "standard_user",
+      "Password": "invalidPassword",
+      "ExpectedResult": false
+    },
+    {
+      "UserName": "invalidUser",
+      "Password": "invalidPassword",
+      "ExpectedResult": false
+    },
+    {
+      "UserName": "locked_out_user",
+      "Password": "secret_sauce",
+      "ExpectedResult": false
+    },
+    {
+      "UserName": "problem_user",
+      "Password": "secret_sauce",
+      "ExpectedResult": true
+    }
+  ]
+}
